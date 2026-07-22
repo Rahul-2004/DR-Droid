@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; background: #09090b; color: #e4e4e7; font-family: Arial, Helvetica, sans-serif; }
+button, input, select, textarea { font: inherit; }
+a { color: inherit; text-decoration: none; }
+.panel { border: 1px solid #27272a; background: #111113; border-radius: 14px; }
+.muted { color: #a1a1aa; }
+.button { border: 0; border-radius: 9px; padding: .62rem .9rem; background: #f4f4f5; color: #18181b; cursor: pointer; font-weight: 600; }
+.button:disabled { opacity: .5; cursor: not-allowed; }
+.button.secondary { background: #27272a; color: #f4f4f5; }
+.input { width: 100%; border: 1px solid #3f3f46; background: #18181b; color: #f4f4f5; border-radius: 9px; padding: .7rem .8rem; }
+.markdown h1,.markdown h2,.markdown h3 { margin-top: 1.4rem; }.markdown p,.markdown li { line-height: 1.65; }.markdown pre { overflow: auto; padding: 1rem; background: #18181b; border-radius: 8px; }

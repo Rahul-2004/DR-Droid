@@ -1,0 +1,2 @@
+import { redirect } from "next/navigation"; import { currentUser } from "@/lib/auth"; import { db } from "@/lib/db"; import { Workspace } from "@/features/workspace/workspace";
+export default async function AppPage() { const user = await currentUser(); if (!user) redirect("/"); const account = await db.creditAccount.findUnique({ where: { userId: user.id } }); return <Workspace user={{ email: user.email ?? "Researcher", name: user.user_metadata.full_name ?? user.user_metadata.name ?? "Researcher" }} initialCredits={account?.balance ?? 0} />; }
