@@ -35,18 +35,18 @@
     "zod": "^3.24.4"
   },
   "devDependencies": {
-    "@playwright/test": "^1.61.1",
-    "@types/node": "^22.15.3",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
-    "autoprefixer": "^10.4.21",
-    "eslint": "^9.26.0",
-    "eslint-config-next": "^16.2.9",
-    "postcss": "^8.5.3",
-    "prisma": "^6.7.0",
-    "tailwindcss": "^3.4.17",
-    "tsx": "^4.19.4",
-    "typescript": "^5.8.3"
+    "autoprefixer": "^10.6.1",
+    "eslint": "^10.11.0",
+    "eslint-config-next": "^16.3.6",
+    "postcss": "^8.5.28",
+    "prisma": "^7.10.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
   },
   "description": "Bring-your-own-key deep research agent with usage-based billing",
   "engines": {
